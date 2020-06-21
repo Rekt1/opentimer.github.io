@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+.timer {
+  background-color: #efefef;
+  font-family: 'Lato', sans-serif;
+  min-width: 500px;
+}
+
+.btn-circle {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+  background: #fff;
+  border: 2px solid #212121;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #212121;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 400;
+  height: 100px;
+  margin: 0 2.5em;
+  outline: none;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100px;
+  zoom: 1;
+}
+
+.btn-circle:hover {
+  background: #212121;
+  color: #fff;
+}
+
+.btn-circle:active {
+  background: #888;
+  color: #212121;
+}
+
+.btn-circle-green {
+  border-color: #4cd963;
+  color: #4cd963;
+}
+
+.btn-circle-green:hover {
+  background: #4cd963;
+  color: #fff;
+}
+
+.btn-circle-green:active {
+  background: #888;
+  border-color: #2b7238;
+  color: #4cd963;
+}
+
+.btn-circle-red {
+  border-color: #fc3d39;
+  color: #fc3d39;
+}
+
+.btn-circle-red:hover {
+  background: #fc3d39;
+  color: #fff;
+}
+
+.btn-circle-red:active {
+  background: #888;
+  border-color: #862027;
+  color: #fc3d39;
+}
+
+.timer-display {
+  background-color: #fff;
+  font-weight: 300;
+  line-height: 1;
+  padding: 2em 0;
+}
+
+.timer-display .time-elapsed {
+  font-size: 9em;
+  font-weight: 300;
+}
+
+.timer-display .current-lap {
+  color: #888;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+.divider::before {
+  content: ":";
+  font-weight: 100;
+  position: relative;
+  top: -0.1em;
+}
+
+.block-center {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.controls {
+  padding: 2em 0;
+  border: solid 1px #ddd;
+}
+
+.laps {
+  font-size: 2.2em;
+  font-weight: 300;
+}
